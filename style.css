@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    position: relative;
+}
+
+.volume{
+    width: 10px;
+    height: 65px;
+    background-color: #000;
+    border-radius: 35px;
+    position: absolute;
+    top: 150px;
+    left: 842px;
+}
+
+.power{
+    width: 10px;
+    height: 65px;
+    background-color: #000;
+    border-radius: 35px;
+    position: absolute;
+    top: 220px;
+    left: 842px;
+}
+
+.telephone{
+    width: 370px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    background-color: #000;
+    border-radius: 110px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.camera{
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.camera-face{
+    width: 105px;
+    height: 12px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    /*position: absolute;
+    top: 35px;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.camera-light{
+    width: 15px;
+    height: 15px;
+    background-color: #0f0;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    animation: color-change 5s infinite;
+}
+
+@keyframes color-change{
+    0%{
+        background-color: red;
+    }
+
+    25%{
+        background-color: blue;
+    }
+
+    50%{
+        background-color: white;
+    }
+
+    75%{
+        background-color: yellow;
+    }
+
+    100%{
+        background-color: aquamarine;
+    }
+}
+
+.ecran{
+    width: 320px;
+    height: 500px;
+    background-image: url("images/gregory-1.jpg");
+    position: relative;
+}
+
+#date{
+    color: #00f;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.ecran h1{
+    color: #000;
+    font-size: 3.5rem;
+    position: absolute;
+    bottom: 180px;
+    left: 30px;
+}
+
+.icone{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+}
+
+.carre{
+    width: 30px;
+    height: 30px;
+    border: 5px solid #fff;
+}
+
+.cercle{
+    width: 30px;
+    height: 30px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+
+.icone .icon i{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+@media screen and (max-width: 1400px){
+    .volume{
+        width: 10px;
+        height: 65px;
+        background-color: #000;
+        border-radius: 35px;
+        position: absolute;
+        top: 150px;
+        left: 752px;
+    }
+
+    .power{
+        width: 10px;
+        height: 65px;
+        background-color: #000;
+        border-radius: 35px;
+        position: absolute;
+        top: 220px;
+        left: 752px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .volume{
+        width: 10px;
+        height: 65px;
+        background-color: #000;
+        border-radius: 35px;
+        position: absolute;
+        top: 150px;
+        left: 662px;
+    }
+
+    .power{
+        width: 10px;
+        height: 65px;
+        background-color: #000;
+        border-radius: 35px;
+        position: absolute;
+        top: 220px;
+        left: 662px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .volume{
+        width: 10px;
+        height: 65px;
+        background-color: #000;
+        border-radius: 35px;
+        position: absolute;
+        top: 150px;
+        left: 542px;
+    }
+
+    .power{
+        width: 10px;
+        height: 65px;
+        background-color: #000;
+        border-radius: 35px;
+        position: absolute;
+        top: 220px;
+        left: 542px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .volume{
+        width: 10px;
+        height: 65px;
+        background-color: #000;
+        border-radius: 35px;
+        position: absolute;
+        top: 150px;
+        left: 543px;
+    }
+
+    .power{
+        width: 10px;
+        height: 65px;
+        background-color: #000;
+        border-radius: 35px;
+        position: absolute;
+        top: 220px;
+        left: 543px;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .volume{
+        width: 10px;
+        height: 65px;
+        background-color: #000;
+        border-radius: 35px;
+        position: absolute;
+        top: 150px;
+        left: 451px;
+    }
+
+    .power{
+        width: 10px;
+        height: 65px;
+        background-color: #000;
+        border-radius: 35px;
+        position: absolute;
+        top: 220px;
+        left: 451px;
+    }
+}
+
+@media screen and (max-width: 414px){
+        .volume{
+            width: 10px;
+            height: 65px;
+            background-color: #000;
+            border-radius: 35px;
+            position: absolute;
+            top: 150px;
+            left: 389px;
+        }
+    
+        .power{
+            width: 10px;
+            height: 65px;
+            background-color: #000;
+            border-radius: 35px;
+            position: absolute;
+            top: 220px;
+            left: 389px;
+        }
+    }
+
+
+@media screen and (max-width: 400px){
+    .volume{
+        width: 10px;
+        height: 65px;
+        background-color: #000;
+        border-radius: 35px;
+        position: absolute;
+        top: 150px;
+        left: 382px;
+    }
+
+    .power{
+        width: 10px;
+        height: 65px;
+        background-color: #000;
+        border-radius: 35px;
+        position: absolute;
+        top: 220px;
+        left: 382px;
+    }
+
+    @media screen and (max-width: 393px){
+        .volume{
+            width: 10px;
+            height: 65px;
+            background-color: #000;
+            border-radius: 35px;
+            position: absolute;
+            top: 150px;
+            left: 379px;
+        }
+    
+        .power{
+            width: 10px;
+            height: 65px;
+            background-color: #000;
+            border-radius: 35px;
+            position: absolute;
+            top: 220px;
+            left: 379px;
+        }
+    }
+
+    @media screen and (max-width: 390px){
+        .volume{
+            width: 10px;
+            height: 65px;
+            background-color: #000;
+            border-radius: 35px;
+            position: absolute;
+            top: 150px;
+            left: 379px;
+        }
+    
+        .power{
+            width: 10px;
+            height: 65px;
+            background-color: #000;
+            border-radius: 35px;
+            position: absolute;
+            top: 220px;
+            left: 379px;
+        }
+    }
+}
+
+@media screen and (max-width: 375px){
+    
+    .volume{
+        width: 10px;
+        height: 65px;
+        background-color: #000;
+        border-radius: 35px;
+        position: absolute;
+        top: 150px;
+        left: 379px;
+    }
+
+    .power{
+        width: 10px;
+        height: 65px;
+        background-color: #000;
+        border-radius: 35px;
+        position: absolute;
+        top: 220px;
+        left: 379px;
+    }
+}
+
+
